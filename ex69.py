@@ -1,7 +1,7 @@
 valor_total = 0
 cont = 0
 media_preco = 0
-resposta = str.lower(input("MAIS MERCADORIAS (S/N)"))
+resposta = str.lower(input("MAIS MERCADORIAS (S/N): "))
 while resposta == "s":
     valor_peca = float(input("qual o valor da peça: "))
     resposta = str.lower(input("‘MAIS MERCADORIAS (S/N)"))
